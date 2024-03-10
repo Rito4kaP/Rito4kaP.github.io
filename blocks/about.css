@@ -1,0 +1,26 @@
+.title {
+  font-family: "Azeret Mono", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 127%;
+  text-align: center;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.about__title {
+  margin-top: 220px;
+  margin-bottom: 3px;
+}
+.about__text {
+  max-width: 869px;
+  color: #222;
+  margin: 0 auto;
+  margin-bottom: 244px;
+}/*# sourceMappingURL=about.css.map */

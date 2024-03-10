@@ -1,0 +1,26 @@
+.gallery-grid{
+    // width: 1328px;
+    width: 85vw;;
+    margin: 0 auto;
+    margin-top: 152px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // grid-template-columns: repeat (auto-fit, minmax(100px, 240px));
+    // grid-template-rows: 300px 300px;
+    gap: 40px;
+    &__pic1{
+        grid-row: span 2;
+        overflow: hidden;
+    }
+    .gallery-grid__img1{
+        // min-height: 100px;
+        object-fit: cover;
+        height: 640px;
+    }
+}
+.gallery-grid__img{
+    object-fit: cover;
+    max-width: 100%;
+        height: 100%;
+}

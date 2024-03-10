@@ -1,0 +1,34 @@
+.adress {
+  background-color: #aa9e54;
+}
+.adress-body {
+//   width: 1328px;
+    width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #fff;
+  &__column {
+    width: 389px;
+    text-align: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 127%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 146%;
+    text-align: center;
+    &_first{
+        margin-bottom: 35px;
+    }
+  }
+}
