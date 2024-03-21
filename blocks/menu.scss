@@ -1,0 +1,54 @@
+.menu{
+    background-color: #e9e9e3;
+}
+.menu-body{
+    width: 85vw;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &__title{
+        @include title;
+        text-align: left;
+        margin-bottom: 17px;
+        color: $olive;
+    }
+    &__text{
+        @include text;
+        text-align: left;
+        width: 35vw;
+        margin-bottom: 63px;
+        color: $olive;;
+    }
+    &__buttons{
+        width: 35vw;
+        height: 198px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    &__button{
+        width: 35vw;
+        font-family: "Inter", sans-serif;
+        height: 58px;
+        border: 2px solid$olive;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: $olive;
+        &:hover{
+            background-color: #adad99;
+            color:white;
+            cursor: pointer;
+        }
+    }
+    &__button_active{
+        background-color: $olive;
+        color:white;
+    }
+    &__img{
+        width: 40vw;
+    }
+}

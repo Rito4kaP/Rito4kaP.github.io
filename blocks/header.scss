@@ -1,0 +1,50 @@
+.header {
+    background-color: $wine;
+  }
+.header-top{
+  max-width: 85vw;
+  height: 120px; 
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3,33.333%);
+  justify-items: center;
+  margin: 0 auto;
+}
+.header-logo{
+  display: flex;
+}
+.header-contacts{
+  width: 104px;
+  display: flex;
+  justify-self: right;
+  justify-content: space-between;
+  &__img:hover{
+    opacity: 50%;
+  }
+}
+.menu-nav {
+  display: flex;
+  justify-self: left;
+  width: 230px;
+  justify-content: space-between;
+  &__item {
+    font-size: 17px;
+    font-family: "Inter";
+    a {
+      text-decoration: none;
+      color: $rose;
+      &:hover {
+        color: #973347;
+      }
+    }
+  }
+}
+.header-photo{
+  max-width: 85vw;
+  margin: 0 auto;
+  &__img{
+    padding-bottom: 36px;
+    max-width: 85vw;
+  }
+}
+

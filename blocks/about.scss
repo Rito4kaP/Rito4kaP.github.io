@@ -1,0 +1,14 @@
+.about{
+    &__title{
+        @include title;
+        margin-top: 220px;
+        margin-bottom: 3px;
+    }
+    &__text{
+        @include text;
+        max-width: 869px;
+        color: #222;
+        margin: 0 auto;
+        margin-bottom: 244px;
+    }
+}
